@@ -16,6 +16,10 @@ The statistics of the SYSU-30k. (a) summarizes the number of bags with respect t
 
 <p align='center'>Figure 1: Examples in the test set of SYSU-30k.</p> 
 
-<p align='center'>![image](https://github.com/wanggrun/SYSU-30k/blob/master/sysu30k_test.png)</p>
+<p align='center'>
+ 
+ ![image](https://github.com/wanggrun/SYSU-30k/blob/master/sysu30k_test.png)
+ 
+ </p>
 
 Each pair represents a pair of images belonging to the same person category, but taken by different cameras. Left: query images; Right: gallery images.
