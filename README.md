@@ -11,7 +11,7 @@ Examples of DeepFashion2 are shown in Figure 1.
 
 
 
-![image](https://github.com/wanggrun/SYSU-30k/blob/master/sysu30k.png)
+![image](https://github.com/wanggrun/SYSU-30k/blob/master/sysu30_stat.png
 
 
 
