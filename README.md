@@ -11,11 +11,11 @@ Examples of DeepFashion2 are shown in Figure 1.
 
 
 
-![image](https://github.com/wanggrun/SYSU-30k/blob/master/sysu30_stat.png
+![image](https://github.com/wanggrun/SYSU-30k/blob/master/sysu30_stat.png)
 
 
 
 <p align='center'>Figure 1: Examples of DeepFashion2.</p>
 
-![image](https://github.com/switchablenorms/DeepFashion2/blob/master/images/annotation.jpg)
+![image](https://github.com/wanggrun/SYSU-30k/blob/master/sysu30k_test.png)
 *<sub>From (1) to (4), each row represents clothes images with different variations. At each row, we partition the images into two groups, the left three columns represent clothes from commercial stores, while the right three columns are from customers.In each group, the three images indicate three levels of difficulty with respect to the corresponding variation.Furthermore, at each row, the items in these two groups of images are from the same clothing identity but from two different domains, that is, commercial and customer.The items of the same identity may have different styles such as color and printing.Each item is annotated with landmarks and masks.*
