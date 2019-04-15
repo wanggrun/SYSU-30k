@@ -4,7 +4,9 @@ SYSU-30k Dataset of "Weakly Supervised Person Re-identification: Cost-effective 
  SYSU-30k contains 30k categories of persons, which is about 20 times large rthan CUHK03 (1.3k categories)and Market1501 (1.5k categories), and 30 times larger than ImageNet (1k categories). SYSU-30k contains 29,606,918 images. Moreover, SYSU-30k provides not only a large platform for the weakly supervised ReID problem but also a more challenging test set that is consistent with the realistic setting for standard evaluation. Figure 1 shows some samples from the SYSU-30k dataset. 
  
 
-![image](https://github.com/wanggrun/SYSU-30k/blob/master/sysu30k.png)
+<p align="center">
+<img src="https://github.com/wanggrun/SYSU-30k/blob/master/sysu30k.png">
+ </p>
 
  <p align='center'>Figure 1: Examples in the new SYSU-30k dataset. (a) Person images in terms of bag and (b) their bag-level weak annotations.</p>
 
