@@ -13,7 +13,7 @@ SYSU-30k Dataset of "Weakly Supervised Person Re-identification: Cost-effective 
 
 
 <p align="center">
-<img src = "https://github.com/wanggrun/SYSU-30k/blob/master/sysu30_stat.png", width='400'>
+<img src = "https://github.com/wanggrun/SYSU-30k/blob/master/sysu30_stat.png", width='300'>
  </p>
 
 
