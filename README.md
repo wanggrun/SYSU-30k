@@ -12,7 +12,9 @@ SYSU-30k Dataset of "Weakly Supervised Person Re-identification: Cost-effective 
 
 
 
-![image](https://github.com/wanggrun/SYSU-30k/blob/master/sysu30_stat.png)
+<p align="center">
+<img src = "https://github.com/wanggrun/SYSU-30k/blob/master/sysu30_stat.png">
+ </p>
 
 
 <p align='center'>Figure 2: The statistics of the SYSU-30k. (a) summarizes the number of bags with respect to the number of images per bag. (b) and (c) compare SYSU-30k with the existing datasets in terms of person categories and image number, respectively, for both the whole dataset and the test set.</p>
