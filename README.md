@@ -5,7 +5,7 @@ SYSU-30k Dataset of "Weakly Supervised Person Re-identification: Cost-effective 
  
 
 <p align="center">
-<img src="https://github.com/wanggrun/SYSU-30k/blob/master/sysu30k.png">
+<img src="https://github.com/wanggrun/SYSU-30k/blob/master/sysu30k.png", width = '400'>
  </p>
 
  <p align='center'>Figure 1: Examples in the new SYSU-30k dataset. (a) Person images in terms of bag and (b) their bag-level weak annotations.</p>
@@ -13,7 +13,7 @@ SYSU-30k Dataset of "Weakly Supervised Person Re-identification: Cost-effective 
 
 
 <p align="center">
-<img src = "https://github.com/wanggrun/SYSU-30k/blob/master/sysu30_stat.png">
+<img src = "https://github.com/wanggrun/SYSU-30k/blob/master/sysu30_stat.png", width='400'>
  </p>
 
 
