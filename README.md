@@ -150,7 +150,7 @@ bash tools/dist_train.sh config/xx.py 8
 **Note**: During training, checkpoints and logs are saved in the same folder structure as the config file under `work_dirs/`. Custom work directory is not recommended since evaluation scripts infer work directories from the config file name. If you want to save your weights somewhere else, please use symlink, for example:
 
 ```shell
-ln -s /DATA/}/work_dirs
+ln -s /data0/wangguangrun/dataset/SYSU-30k-released  data/SYSU-30k-released
 ```
 
 
