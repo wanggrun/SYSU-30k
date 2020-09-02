@@ -6,10 +6,10 @@ SYSU-30k Dataset of "Weakly Supervised Person Re-ID: Differentiable Graphical Le
  
 
 <p align="center">
-<img src="https://github.com/wanggrun/SYSU-30k/blob/master/sysu30k.png", width = '400'>
+<img src="https://github.com/wanggrun/SYSU-30k/blob/master/sysu-30k-example.png", width = '400'>
  </p>
 
- <p align='center'>Figure 1: Examples in the new SYSU-30k dataset. (a) Person images in terms of bag and (b) their bag-level weak annotations.</p>
+ <p align='center'>Figure 1: Examples in our SYSU-30k dataset. (a) training images in terms of bag; (b) their bag-level annotations; (c) test set.</p>
 
 
 
