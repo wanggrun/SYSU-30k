@@ -8,7 +8,7 @@ SYSU-30k Dataset of "Weakly Supervised Person Re-ID: Differentiable Graphical Le
  
  
  
- <p align='center'>Table 1: Comparision with existing Re-ID datasets.</p>
+ ### Table 1: Comparision with existing Re-ID datasets.
 
 | Dataset      | CUHK03       |  Market-1501 |   Duke       |      MSMT17  |       CUHK01 |         PRID |        VIPeR |       CAVIAR |      SYSU-30k|
 |:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|
@@ -19,7 +19,7 @@ SYSU-30k Dataset of "Weakly Supervised Person Re-ID: Differentiable Graphical Le
 |  Images      |     28,192   |   32,668     |    36,411    |   126,441    | 3,884         |    1,134    |      1,264   |     610      | 29,606,918    |
 
 
- <p align='center'>Table 2:  Comparison with ImageNet-1k.</p>
+### Table 2:  Comparison with ImageNet-1k.
  
   
  | Dataset      | ImageNet-1k       |  SYSU-30k | 
