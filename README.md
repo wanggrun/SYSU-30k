@@ -95,12 +95,8 @@ At last, the folder looks like:
 SYSU-30k-released
 ├── imagenet
 │   ├── meta
-│   |   ├── train.txt (for self-sup training, "filename\n" in each line)
-│   |   ├── train_labeled.txt (for linear evaluation, "filename[space]label\n" in each line)
-│   |   ├── train_labeled_1percent.txt (for semi-supervised evaluation)
-│   |   ├── train_labeled_10percent.txt (for semi-supervised evaluation)
-│   |   ├── val.txt
-│   |   ├── val_labeled.txt (for evaluation)
+│   |   ├── train.txt (for weakly supervised training, "filename\n" in each line)
+│   |   ├── val.txt (for evaluation)
 │   ├── train
 │   ├── val
 ```
