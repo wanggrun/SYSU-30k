@@ -15,12 +15,14 @@ SYSU-30k Dataset of "Weakly Supervised Person Re-ID: Differentiable Graphical Le
 
 
 
-<p align="center">
-<img src = "https://github.com/wanggrun/SYSU-30k/blob/master/sysu-30k-statistics.png", width='300'>
- </p>
+
 
 
 ## Statistic of the dataset
+
+<p align="center">
+<img src = "https://github.com/wanggrun/SYSU-30k/blob/master/sysu-30k-statistics.png", width='300'>
+ </p>
 
 <p align='center'>Figure 2: The statistics of the SYSU-30k. (a) summarizes the number of the bags with respect to the number of the images per bag. (b) and (c) compare SYSU-30k with the existing datasets in terms of image number and person IDs for both the entire dataset and the test set.</p>
 
@@ -33,6 +35,8 @@ SYSU-30k Dataset of "Weakly Supervised Person Re-ID: Differentiable Graphical Le
 
 ## Evaluation Metric
 
+
+# Pretrained models
 
 
 # Citation
