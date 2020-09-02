@@ -28,7 +28,7 @@ SYSU-30k Dataset of "Weakly Supervised Person Re-ID: Differentiable Graphical Le
 |  Images      |  1,280,000   |   29,606,918     | 
 |  Annotation  |     Strong   |     Weak         |
 
-### Figure 1: The statistics of the SYSU-30k. 
+### Figure 1: The statistics of SYSU-30k. 
  
 
 <p align="center">
@@ -40,7 +40,7 @@ SYSU-30k Dataset of "Weakly Supervised Person Re-ID: Differentiable Graphical Le
 
 ## Visualization of the dataset
 
-### Figure 2: Examples in our SYSU-30k dataset.
+### Figure 2: Example in SYSU-30k.
 
 <p align="center">
 <img src="https://github.com/wanggrun/SYSU-30k/blob/master/sysu-30k-example.png", width = '400'>
