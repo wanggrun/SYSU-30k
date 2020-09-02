@@ -1,4 +1,5 @@
-# SYSU-30k
+# SYSU-30k, code, and pretrained model
+
 SYSU-30k Dataset of "Weakly Supervised Person Re-ID: Differentiable Graphical Learning and A New Benchmark" https://arxiv.org/abs/1904.03845
 
 
@@ -76,7 +77,7 @@ The test set is uncompressed due to the appropriate memory size.
 
  | Dataset      | Link to download       |  baidu pan code | 
 |:------------------:|:------------------:|:------------------:|
-|  bag-level label   |  [:arrow_down:](https://pan.baidu.com/s/1Y9phSZ5jy02szFZB_KqlyQ)    |   1qzv    | 
+|bag_level_label.txt |  [:arrow_down:](https://pan.baidu.com/s/1Y9phSZ5jy02szFZB_KqlyQ)    |   1qzv    | 
 
 
 ### Download the test set
@@ -88,10 +89,22 @@ The test set is uncompressed due to the appropriate memory size.
 
 ## Data organization
 
-### Training set
+At last, the folder looks like:
 
+```
+SYSU-30k-released
+├── imagenet
+│   ├── meta
+│   |   ├── train.txt (for self-sup training, "filename\n" in each line)
+│   |   ├── train_labeled.txt (for linear evaluation, "filename[space]label\n" in each line)
+│   |   ├── train_labeled_1percent.txt (for semi-supervised evaluation)
+│   |   ├── train_labeled_10percent.txt (for semi-supervised evaluation)
+│   |   ├── val.txt
+│   |   ├── val_labeled.txt (for evaluation)
+│   ├── train
+│   ├── val
+```
 
-### Test set
 
 
 ## Evaluation metric
