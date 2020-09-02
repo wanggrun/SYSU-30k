@@ -20,6 +20,13 @@ SYSU-30k Dataset of "Weakly Supervised Person Re-ID: Differentiable Graphical Le
 
 ## Statistic of the dataset
 
+| Dataset      | CUHK03      | Market-1501 | Duke       | MSMT17  | CUHK01 | PRID | VIPeR | CAVIAR | SYSU-30k|
+|:-------------|:------------|:-----------:|:----------:|:-------:|:------:|:----:|:-----:|:------:|:-------:|
+| Categories   | 1,467       | 1,501.      | 1,812      | 4,101   | 971    | 934  | 632   |  72    | 30,508  |
+
+
+
+
 <p align="center">
 <img src = "https://github.com/wanggrun/SYSU-30k/blob/master/sysu-30k-statistics.png", width='300'>
  </p>
