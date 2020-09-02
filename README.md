@@ -52,6 +52,8 @@ SYSU-30k Dataset of "Weakly Supervised Person Re-ID: Differentiable Graphical Le
 
 ## Download the dataset
 
+Note that our original train set occupies 462G's memory. We are not able to upload the original data with such a large memory. As a result, we downsample the train images from 288 * x resolution to 144 * x resolution. The compressed data sum up to 100+G.
+
 
 ## Data organization
 
