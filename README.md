@@ -22,7 +22,7 @@ SYSU-30k Dataset of "Weakly Supervised Person Re-ID: Differentiable Graphical Le
  <p align='center'>Table 2:  Comparison with ImageNet-1k.</p>
  
  | Dataset      | ImageNet-1k       |  SYSU-30k | 
-|:------------:|:------------:|:------------:|
+|:------------------:|:------------------:|:------------------:|
 | Categories   | 1,000        |        30,508  |
 |  Images      |  1,280,000   |   29,606,918     | 
 |  Annotation  |     Strong   |     Weak         |
