@@ -144,13 +144,13 @@ Optional arguments are:
 
 An example:
 ```shell
-# checkpoints and logs saved in WORK_DIR=work_dirs/selfsup/odc/r50_v1/
-bash tools/dist_train.sh configs/selfsup/odc/r50_v1.py 8
+# checkpoints and logs saved in WORK_DIR=work_dirs/xxx/
+bash tools/dist_train.sh config/xx.py 8
 ```
 **Note**: During training, checkpoints and logs are saved in the same folder structure as the config file under `work_dirs/`. Custom work directory is not recommended since evaluation scripts infer work directories from the config file name. If you want to save your weights somewhere else, please use symlink, for example:
 
 ```shell
-ln -s /DATA/xhzhan/openselfsup_workdirs ${OPENSELFSUP}/work_dirs
+ln -s /DATA/}/work_dirs
 ```
 
 
