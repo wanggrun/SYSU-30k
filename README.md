@@ -54,6 +54,8 @@ SYSU-30k Dataset of "Weakly Supervised Person Re-ID: Differentiable Graphical Le
 
 Note that our original training set occupies 462G's memory. We are not able to upload the original data taking up such a large memory. As a result, we downsample the train images from 288 * x resolution to 144 * x resolution with x representing the shortest edge. The compressed data sum up to 100+G.
 
+The test set is uncompressed due to the appropriate memory size.
+
 ### Download the training set
 
 
