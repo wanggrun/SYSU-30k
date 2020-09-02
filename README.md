@@ -2,6 +2,8 @@
 SYSU-30k Dataset of "Weakly Supervised Person Re-ID: Differentiable Graphical Learning and A New Benchmark" https://arxiv.org/abs/1904.03845
 
 
+## Overview of the dataset
+
  SYSU-30k contains 30k categories of persons, which is about 20 times large rthan CUHK03 (1.3k categories)and Market1501 (1.5k categories), and 30 times larger than ImageNet (1k categories). SYSU-30k contains 29,606,918 images. Moreover, SYSU-30k provides not only a large platform for the weakly supervised ReID problem but also a more challenging test set that is consistent with the realistic setting for standard evaluation. Figure 1 shows some samples from the SYSU-30k dataset. 
  
 
@@ -18,7 +20,18 @@ SYSU-30k Dataset of "Weakly Supervised Person Re-ID: Differentiable Graphical Le
  </p>
 
 
+## Statistic of the dataset
+
 <p align='center'>Figure 2: The statistics of the SYSU-30k. (a) summarizes the number of the bags with respect to the number of the images per bag. (b) and (c) compare SYSU-30k with the existing datasets in terms of image number and person IDs for both the entire dataset and the test set.</p>
+
+
+## Download the dataset
+
+
+## Data organization
+
+
+## Evaluation Metric
 
 
 
