@@ -28,24 +28,25 @@ SYSU-30k Dataset of "Weakly Supervised Person Re-ID: Differentiable Graphical Le
 |  Images      |  1,280,000   |   29,606,918     | 
 |  Annotation  |     Strong   |     Weak         |
 
+### Figure 1: The statistics of the SYSU-30k. 
  
- 
-
 
 <p align="center">
 <img src = "https://github.com/wanggrun/SYSU-30k/blob/master/sysu-30k-statistics.png", width='300'>
  </p>
 
-<p align='center'>Figure 2: The statistics of the SYSU-30k. (a) summarizes the number of the bags with respect to the number of the images per bag. (b) and (c) compare SYSU-30k with the existing datasets in terms of image number and person IDs for both the entire dataset and the test set.</p>
+<p align='center'>(a) summarizes the number of the bags with respect to the number of the images per bag. (b) and (c) compare SYSU-30k with the existing datasets in terms of image number and person IDs for both the entire dataset and the test set.</p>
 
 
 ## Visualization of the dataset
+
+### Figure 2: Examples in our SYSU-30k dataset.
 
 <p align="center">
 <img src="https://github.com/wanggrun/SYSU-30k/blob/master/sysu-30k-example.png", width = '400'>
  </p>
 
- <p align='center'>Figure 1: Examples in our SYSU-30k dataset. (a) training images in terms of bag; (b) their bag-level annotations; (c) test set.</p>
+ <p align='center'>(a) training images in terms of bag; (b) their bag-level annotations; (c) test set.</p>
  
  
 
