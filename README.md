@@ -61,6 +61,11 @@ The test set is uncompressed due to the appropriate memory size.
 
 ### Download the test set
 
+ | Dataset      | Link to download       |  baidu pan code | 
+|:------------------:|:------------------:|:------------------:|
+|  sysu_test_set_all.tar      |  [:arrow_down:](https://pan.baidu.com/s/1Y9phSZ5jy02szFZB_KqlyQ)    |   1qzv    | 
+
+
 ## Data organization
 
 
