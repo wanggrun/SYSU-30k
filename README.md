@@ -94,8 +94,8 @@ The source code of our weakly supervised re-ID is originally written by [Guangco
 
 If you use these models in your research, please cite:
 
+
 @inproceedings{Wang2020Weakly_tnnls,
-  
       title={Weakly Supervised Person Re-ID: Differentiable Graphical Learning and A New Benchmark},
       author={Guangrun Wang and
               Guangcong Wang and
