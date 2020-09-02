@@ -69,6 +69,8 @@ The test set is uncompressed due to the appropriate memory size.
 
 # Pretrained models
 
+The source code of our weakly supervised re-ID is originally written by [Guangcong Wang](https://wanggcong.github.io) who has rich experiences in re-ID, and is partially revised by [Guangrun Wang](https://wanggrun.github.io/).
+
 
 # Citation
 
