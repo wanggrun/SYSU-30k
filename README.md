@@ -53,7 +53,7 @@ SYSU-30k Dataset of "Weakly Supervised Person Re-ID: Differentiable Graphical Le
 
 ## Download the dataset
 
-Note that our original training set occupies 462G's memory. We are not able to upload the original data taking up such a large memory. As a result, we downsample the train images from 288 * x resolution to 144 * x resolution with x representing the shortest edge. The compressed data sum up to 100+G.
+**Note** that our original training set occupies 462G's memory. We are not able to upload the original data taking up such a large memory. As a result, we downsample the train images from 288 * x resolution to 144 * x resolution with x representing the shortest edge. The compressed data sum up to 100+G.
 
 The test set is uncompressed due to the appropriate memory size.
 
@@ -111,6 +111,48 @@ We fix the train/test partitioning. In the test set, we choose 1,000 images belo
 # Pretrained models
 
 The source code of our weakly supervised re-ID is originally written by [Guangcong Wang](https://wanggcong.github.io) who has rich experiences in re-ID, and is partially revised by [Guangrun Wang](https://wanggrun.github.io/).
+
+
+### Download the pretrained model
+
+ | Pretrained      | Link to download       |  baidu pan code | 
+|:------------------:|:------------------:|:------------------:|
+|  pretrained_model.pth      |  [:arrow_down:](https://pan.baidu.com/s/1Y9phSZ5jy02szFZB_KqlyQ)    |   1qzv    | 
+
+
+### Requirements
+
+We have tested the following versions of OS and softwares:
+
+- Python 3.6+
+- PyTorch 1.1 or higher
+- OS: Ubuntu 16.04/18.04 and CentOS 7.2
+- CUDA: 9.0/9.2/10.0/10.1
+- NCCL: 2.1.15/2.2.13/2.3.7/2.4.2
+- GCC(G++): 4.9/5.3/5.4/7.3
+
+
+### Test with pretrained model
+
+```shell
+bash tools/dist_train.sh ${CONFIG_FILE} ${GPUS} [optional arguments]
+```
+Optional arguments are:
+- `--resume_from ${CHECKPOINT_FILE}`: Resume from a previous checkpoint file.
+- `--pretrained ${PRETRAIN_WEIGHTS}`: Load pretrained weights for the backbone.
+- `--deterministic`: Switch on "deterministic" mode which slows down training but the results are reproducible.
+
+An example:
+```shell
+# checkpoints and logs saved in WORK_DIR=work_dirs/selfsup/odc/r50_v1/
+bash tools/dist_train.sh configs/selfsup/odc/r50_v1.py 8
+```
+**Note**: During training, checkpoints and logs are saved in the same folder structure as the config file under `work_dirs/`. Custom work directory is not recommended since evaluation scripts infer work directories from the config file name. If you want to save your weights somewhere else, please use symlink, for example:
+
+```shell
+ln -s /DATA/xhzhan/openselfsup_workdirs ${OPENSELFSUP}/work_dirs
+```
+
 
 
 # Citation
