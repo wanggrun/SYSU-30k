@@ -53,7 +53,7 @@ SYSU-30k Dataset of "Weakly Supervised Person Re-ID: Differentiable Graphical Le
 
 ## Download the dataset
 
-**Note** that our original training set occupies 462G's memory. We are not able to upload the original data taking up such a large memory. As a result, we downsample the train images from 288 * x resolution to 144 * x resolution with x representing the shortest edge. The compressed data sum up to 100+G.
+**Note** that our original training set occupies 462G's memory. We are not able to upload the original data taking up such a large memory. As a result, we downsample the train images from 288 * x resolution to 144 * x resolution with x representing the shortest edge. The compressed data sum up to 82.2G.
 
 The test set is uncompressed due to the appropriate memory size.
 
@@ -97,8 +97,32 @@ SYSU-30k-released
 │   ├── meta
 │   |   ├── train.txt (for weakly supervised training, "filename\n" in each line)
 │   |   ├── val.txt (for evaluation)
-│   ├── train
-│   ├── val
+│   ├── sysu_train_set_all
+│   |   ├── 0000000001
+│   |   ├── 0000000002
+│   |   ├── 0000000003
+│   |   ├── 0000000004
+│   |   ├── ...
+│   |   ├── 0000028309
+│   |   ├── 0000028310
+│   ├── sysu_test_set_all
+│   |   ├── gallery
+│   |   |   ├── 000028311
+│   |   |   ├── 000028312
+│   |   |   ├── 000028313
+│   |   |   ├── 000028314
+│   |   |   ├── ...
+│   |   |   ├── 000029309
+│   |   |   ├── 000029310
+│   |   |   ├── 0000others
+│   |   ├── query
+│   |   |   ├── 000028311
+│   |   |   ├── 000028312
+│   |   |   ├── 000028313
+│   |   |   ├── 000028314
+│   |   |   ├── ...
+│   |   |   ├── 000029309
+│   |   |   ├── 000029310
 ```
 
 
