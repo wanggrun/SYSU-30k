@@ -73,11 +73,13 @@ The test set is uncompressed due to the appropriate memory size.
 |  sysu_train_set_all_part10.tar      |  [:arrow_down:](https://pan.baidu.com/s/1Y9phSZ5jy02szFZB_KqlyQ)   |   1qzv    | 
 
 
-### Download the bag-level label for training set
+### Download the bag-level label for training set, the training list, and the validation list.
 
  | Dataset      | Link to download       |  baidu pan code | 
 |:------------------:|:------------------:|:------------------:|
 |bag_level_label.txt |  [:arrow_down:](https://pan.baidu.com/s/1Y9phSZ5jy02szFZB_KqlyQ)    |   1qzv    | 
+|train.txt |  [:arrow_down:](https://pan.baidu.com/s/1Y9phSZ5jy02szFZB_KqlyQ)    |   1qzv    | 
+|val.txt |  [:arrow_down:](https://pan.baidu.com/s/1Y9phSZ5jy02szFZB_KqlyQ)    |   1qzv    | 
 
 
 ### Download the test set
