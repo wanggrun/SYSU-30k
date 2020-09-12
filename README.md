@@ -1,6 +1,6 @@
 # SYSU-30k dataset, code, and pretrained model
 
-SYSU-30k Dataset of "Weakly Supervised Person Re-ID: Differentiable Graphical Learning and A New Benchmark" https://arxiv.org/abs/1904.03845
+SYSU-30k Dataset of "Weakly Supervised Person Re-ID: Differentiable Graphical Learning and A New Benchmark" https://arxiv.org/abs/1904.03845. The dataset is available now.
 
 
 ## Statistic of the dataset
