@@ -178,10 +178,10 @@ We have tested the following versions of OS and softwares:
 
 Evaluating a trained model includes two steps, i.e., feature extraction (which is in fact classificaction probability vector) and metric score caculation.
 
-#### Feature extraction
 
 ```shell
-python3 test_sysu_pretrained.py --gpu_ids ${GPU_ID} --name ${NAME_OF_MODEL} --test_dir ${DIR_OF_TEST_SET}  --which_epoch ${WHICH_EPOCH_OF_CHECKPOINT} --batchsize ${BATCH_SIZE}
+python test_sysu_pretrained.py --gpu_ids ${GPU_ID} --name ${NAME_OF_MODEL} --test_dir ${DIR_OF_TEST_SET}  --which_epoch ${WHICH_EPOCH_OF_CHECKPOINT} --batchsize ${BATCH_SIZE}
+python evaluate_sysu_pretrained.py
 ```
 Arguments are:
 - `--gpu_ids ${GPU_ID}`: the gpu IDs you use.
