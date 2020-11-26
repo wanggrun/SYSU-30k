@@ -193,8 +193,11 @@ Arguments are:
 An example:
 ```shell
 cd SYSU-30k/GraphReID/
-CUDA_VISIBLE_DEVICES=0,1,2,3   python3 test.py --gpu_ids 2 --name ResNet50 --test_dir /home/wangguangrun/weakly-reid/pytorch  --which_epoch last --batchsize 50
+CUDA_VISIBLE_DEVICES=0,1,2,3   python test.py --gpu_ids 2 --name ResNet50 --test_dir /home/wangguangrun/weakly-reid/pytorch  --which_epoch last --batchsize 50
+python evaluate_sysu_pretrained.py
 ```
+
+
 **Note**: During training, checkpoints and logs are saved in the same folder structure as the config file under `work_dirs/`. Custom work directory is not recommended since evaluation scripts infer work directories from the config file name. If you want to save your weights somewhere else, please use symlink, for example:
 
 ```shell
