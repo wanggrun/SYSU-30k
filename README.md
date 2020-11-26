@@ -197,6 +197,11 @@ CUDA_VISIBLE_DEVICES=0,1,2,3   python test.py --gpu_ids 2 --name ResNet50 --test
 python evaluate_sysu_pretrained.py
 ```
 
+**Note**: Due the huge consumption of hard disks, sometimes, the above two steps can be combined into one ste 
+
+
+
+### Training a model in a weakly supervised manner
 
 **Note**: During training, checkpoints and logs are saved in the same folder structure as the config file under `work_dirs/`. Custom work directory is not recommended since evaluation scripts infer work directories from the config file name. If you want to save your weights somewhere else, please use symlink, for example:
 
