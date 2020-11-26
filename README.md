@@ -193,12 +193,15 @@ Arguments are:
 An example:
 ```shell
 cd SYSU-30k/GraphReID/
-CUDA_VISIBLE_DEVICES=0,1,2,3   python test.py --gpu_ids 2 --name ResNet50 --test_dir /home/wangguangrun/weakly-reid/pytorch  --which_epoch last --batchsize 50
+CUDA_VISIBLE_DEVICES=0,1,2,3   python test_sysu_pretrained.py --gpu_ids 2 --name ResNet50 --test_dir /home/wangguangrun/weakly-reid/pytorch  --which_epoch last --batchsize 50
 python evaluate_sysu_pretrained.py
 ```
 
-**Note**: Due the huge consumption of hard disks, sometimes, the above two steps can be combined into one ste 
-
+**Note**: Due the huge consumption of hard disks, sometimes, the above two steps can be combined into one step, e.g.:
+```shell
+cd SYSU-30k/GraphReID/
+CUDA_VISIBLE_DEVICES=0,1,2,3   python test_sysu_pretrained_combine.py --gpu_ids 2 --name ResNet50 --test_dir /home/wangguangrun/weakly-reid/pytorch  --which_epoch last --batchsize 50
+```
 
 
 ### Training a model in a weakly supervised manner
