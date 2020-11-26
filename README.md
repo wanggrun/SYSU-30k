@@ -177,17 +177,19 @@ We have tested the following versions of OS and softwares:
 ### Test with pretrained model
 
 ```shell
-bash tools/dist_train.sh ${CONFIG_FILE} ${GPUS} [optional arguments]
+python3 test_sysu_pretrained.py --gpu_ids ${GPU_ID} --name ${NAME_OF_MODEL} --test_dir ${DIR_OF_TEST_SET}  --which_epoch ${WHICH_EPOCH_OF_CHECKPOINT} --batchsize ${BATCH_SIZE}
 ```
-Optional arguments are:
-- `--resume_from ${CHECKPOINT_FILE}`: Resume from a previous checkpoint file.
-- `--pretrained ${PRETRAIN_WEIGHTS}`: Load pretrained weights for the backbone.
-- `--deterministic`: Switch on "deterministic" mode which slows down training but the results are reproducible.
+Arguments are:
+- `--gpu_ids ${GPU_ID}`: the gpu IDs you use.
+- `--name ${NAME_OF_MODEL}`: the name of the model, which is also the dir of the saved checkpoints and logs 
+- `--test_dir ${DIR_OF_TEST_SET}`: the dir of your test set
+- `--which_epoch ${WHICH_EPOCH_OF_CHECKPOINT}`: which epoch of the checkpoint you want to evaluate
+- `--batchsize ${BATCH_SIZE}`: the batch size for testing
 
 An example:
 ```shell
-# checkpoints and logs saved in WORK_DIR=work_dirs/xxx/
-bash tools/dist_train.sh config/xx.py 8
+cd SYSU-30k/GraphReID/
+CUDA_VISIBLE_DEVICES=0,1,2,3   python3 test.py --gpu_ids 2 --name ResNet50 --test_dir /home/wangguangrun/weakly-reid/pytorch  --which_epoch last --batchsize 50
 ```
 **Note**: During training, checkpoints and logs are saved in the same folder structure as the config file under `work_dirs/`. Custom work directory is not recommended since evaluation scripts infer work directories from the config file name. If you want to save your weights somewhere else, please use symlink, for example:
 
