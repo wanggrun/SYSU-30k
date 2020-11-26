@@ -180,8 +180,8 @@ Evaluating a trained model includes two steps, i.e., feature extraction (which i
 
 
 ```shell
-python test_sysu_pretrained.py --gpu_ids ${GPU_ID} --name ${NAME_OF_MODEL} --test_dir ${DIR_OF_TEST_SET}  --which_epoch ${WHICH_EPOCH_OF_CHECKPOINT} --batchsize ${BATCH_SIZE}
-python evaluate_sysu_pretrained.py
+**Step 1**: python test_sysu_pretrained.py --gpu_ids ${GPU_ID} --name ${NAME_OF_MODEL} --test_dir ${DIR_OF_TEST_SET}  --which_epoch ${WHICH_EPOCH_OF_CHECKPOINT} --batchsize ${BATCH_SIZE}
+**Step 2**: python evaluate_sysu_pretrained.py
 ```
 Arguments are:
 - `--gpu_ids ${GPU_ID}`: the gpu IDs you use.
