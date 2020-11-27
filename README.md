@@ -5,9 +5,9 @@ The Dataset, code, and pretrained model of "Weakly Supervised Person Re-ID: Diff
 
 The source code of our weakly supervised re-ID is originally written by：
 
-### [Guangcong Wang](https://wanggcong.github.io)
+### [Guangcong Wang](https://wanggcong.github.io) who has rich experiences in person re-ID, 
 
-who has rich experiences in person re-ID, and is partially revised by：
+and is partially revised by：
 
 ### [Guangrun Wang](https://wanggrun.github.io/).
 
