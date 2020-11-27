@@ -193,24 +193,30 @@ Arguments are:
 An example:
 ```shell
 cd SYSU-30k/GraphReID/
-CUDA_VISIBLE_DEVICES=0,1,2,3   python test_sysu_pretrained.py --gpu_ids 2 --name ResNet50 --test_dir /home/wangguangrun/weakly-reid/pytorch  --which_epoch last --batchsize 50
+CUDA_VISIBLE_DEVICES=0,1,2,3 python test_sysu_pretrained.py  --gpu_ids 0  --name model/ResNet50-sysu30k-2048-As
+Feature-continue-continue  --test_dir  /data1/wangguangrun/sysu_test_set_all/    --which_epoch 4  --batchsize 100
 python evaluate_sysu_pretrained.py
 ```
 
 **Note**: Due the huge consumption of hard disks, sometimes, the above two steps can be combined into one step, e.g.:
 ```shell
 cd SYSU-30k/GraphReID/
-CUDA_VISIBLE_DEVICES=0,1,2,3   python test_sysu_pretrained_combine.py --gpu_ids 2 --name ResNet50 --test_dir /home/wangguangrun/weakly-reid/pytorch  --which_epoch last --batchsize 50
+CUDA_VISIBLE_DEVICES=0,1,2,3 python test_sysu_pretrained_combine.py  --gpu_ids 0  --name model/ResNet50-sysu30k-2048-As
+Feature-continue-continue  --test_dir  /data1/wangguangrun/sysu_test_set_all/    --which_epoch 4  --batchsize 100
 ```
 
 
 ### Training a model in a weakly supervised manner
 
-**Note**: During training, checkpoints and logs are saved in the same folder structure as the config file under `work_dirs/`. Custom work directory is not recommended since evaluation scripts infer work directories from the config file name. If you want to save your weights somewhere else, please use symlink, for example:
+**Note**: During training, checkpoints and logs are saved the folder named "work_dir", which will occupies much memory of the hard disk. If you want to save your weights somewhere else, please use symlink, for example:
 
 ```shell
-ln -s /data0/wangguangrun/dataset/SYSU-30k-released  data/SYSU-30k-released
+cd GraphReID
+ln -s /data1/wangguangrun/GraphReID  work_dirs
 ```
+
+
+
 
 
 
