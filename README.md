@@ -6,6 +6,9 @@ The Dataset, code, and pretrained model of "Weakly Supervised Person Re-ID: Diff
 The source code of our weakly supervised re-ID is originally written by [**Guangcong Wang**](https://wanggcong.github.io) who has rich experiences in person re-ID, and is partially revised by [Guangrun Wang](https://wanggrun.github.io/).
 
 
+# [Guangcong Wang](https://wanggcong.github.io)
+
+
 ## Statistic of the dataset
 
  SYSU-30k contains 30k categories of persons, which is about 20 times large rthan CUHK03 (1.3k categories)and Market1501 (1.5k categories), and 30 times larger than ImageNet (1k categories). SYSU-30k contains 29,606,918 images. Moreover, SYSU-30k provides not only a large platform for the weakly supervised ReID problem but also a more challenging test set that is consistent with the realistic setting for standard evaluation. Figure 1 shows some samples from the SYSU-30k dataset. 
