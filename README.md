@@ -213,6 +213,21 @@ cd GraphReID
 ln -s /data1/wangguangrun/GraphReID  work_dirs
 ```
 
+Training the full model On Market-1501 (including unary term, pairwise term, and weakly-supervised triplet loss):
+
+```shell
+cd GraphReID
+CUDA_VISIBLE_DEVICES=1,2  python3 main.py --datadir /data1/wangguangrun/dataset/market1501/ --bagid 2 --batchid 16 --batchtest 32 --test_every 100 --epochs 300 --decay_type step_250_290 --loss 1*CrossEntropy+2*Triplet   --margin 1.2 --save adam_weak_market           --nGPU 2  --lr 2e-4 --optimizer ADAM --random_erasing --reset --re_rank --amsgrad 
+```
+
+
+Training with with only unary term On Market-1501:
+
+```shell
+cd GraphReID
+python train_weak.py --gpu_ids 2 --name ResNet50 --color_jitter  --train_all --batchsize 32 --erasing_p 0.5 --data_dir /home/wangguangrun/weakly-reid/pytorch 
+```
+
 
 
 
