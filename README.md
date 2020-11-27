@@ -213,7 +213,7 @@ cd GraphReID
 ln -s /data1/wangguangrun/GraphReID  work_dirs
 ```
 
-Training the full model On Market-1501 (including unary term, pairwise term, and weakly-supervised triplet loss):
+**Training the full model On Market-1501** (including unary term, pairwise term, and weakly-supervised triplet loss):
 
 ```shell
 cd GraphReID
@@ -221,7 +221,7 @@ CUDA_VISIBLE_DEVICES=1,2  python3 main.py --datadir /data1/wangguangrun/dataset/
 ```
 
 
-Training with with only unary term On Market-1501:
+**Training with with only unary term On Market-1501**:
 
 ```shell
 cd GraphReID
