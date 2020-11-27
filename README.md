@@ -193,14 +193,14 @@ Arguments are:
 An example:
 ```shell
 cd SYSU-30k/GraphReID/
-CUDA_VISIBLE_DEVICES=0,1,2,3 python test_sysu_pretrained.py  --gpu_ids 0  --name model/ResNet50-sysu30k-2048-AsFeature  --test_dir  /data1/wangguangrun/sysu_test_set_all/    --which_epoch 6  --batchsize 100
+python test_sysu_pretrained.py  --gpu_ids 0  --name model/ResNet50-sysu30k-2048-AsFeature  --test_dir  /data1/wangguangrun/sysu_test_set_all/    --which_epoch 6  --batchsize 100
 python evaluate_sysu_pretrained.py
 ```
 
 **Note**: Due the huge consumption of hard disks, sometimes, the above two steps can be combined into one step, e.g.:
 ```shell
 cd SYSU-30k/GraphReID/
-CUDA_VISIBLE_DEVICES=0,1,2,3 python test_sysu_pretrained_combine.py  --gpu_ids 0  --name model/ResNet50-sysu30k-2048-AsFeature  --test_dir  /data1/wangguangrun/sysu_test_set_all/    --which_epoch 6  --batchsize 100
+python test_sysu_pretrained_combine.py  --gpu_ids 0  --name model/ResNet50-sysu30k-2048-AsFeature  --test_dir  /data1/wangguangrun/sysu_test_set_all/    --which_epoch 6  --batchsize 100
 ```
 
 
