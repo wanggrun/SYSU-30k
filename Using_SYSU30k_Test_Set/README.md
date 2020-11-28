@@ -55,4 +55,4 @@ We fix the train/test partitioning. In the test set, we choose 1,000 images belo
 
 
 
-# For a fair evaluation, please refer to the evaluation code in ../GraphReID/train_sysu_pretrained_combine.py
+# For a fair evaluation, please refer to the evaluation code in Using_SYSU30k_Test_Set
