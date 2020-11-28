@@ -155,7 +155,7 @@ SYSU-30k-released
 We fix the train/test partitioning. In the test set, we choose 1,000 images belonging to 1,000 different person IDs to form the query set. As the scalability is important for the practicability of Re-ID systems, we propose to challenge the scalability of a Re-ID model by providing a gallery set containing a vast volume of distractors for validation. Specifically, for each probe, there is only one matching person image as the correct answer in the gallery, while there are 478,730 mismatching person images as the wrong answer in the gallery. Thus, the evaluation protocol is to search for a needle in the ocean, just like the police search a massive amount of videos for a criminal. We use the rank-1 accuracy as the evaluation metric.
 
 
-# For a fair evaluation, please refer to the evaluation code in GraphReID/train_sysu_pretrained_combine.py
+# For a fair evaluation, please refer to the evaluation code in GraphReID/train_sysu_combine.py
 
 
 # Pretrained models
@@ -184,8 +184,8 @@ Evaluating a trained model includes two steps, i.e., feature extraction (which i
 
 
 ```shell
-**Step 1**: python test_sysu_pretrained.py --gpu_ids ${GPU_ID} --name ${NAME_OF_MODEL} --test_dir ${DIR_OF_TEST_SET}  --which_epoch ${WHICH_EPOCH_OF_CHECKPOINT} --batchsize ${BATCH_SIZE}
-**Step 2**: python evaluate_sysu_pretrained.py
+**Step 1**: python test_sysu.py --gpu_ids ${GPU_ID} --name ${NAME_OF_MODEL} --test_dir ${DIR_OF_TEST_SET}  --which_epoch ${WHICH_EPOCH_OF_CHECKPOINT} --batchsize ${BATCH_SIZE}
+**Step 2**: python evaluate_sysu.py
 ```
 Arguments are:
 - `--gpu_ids ${GPU_ID}`: the gpu IDs you use.
@@ -197,14 +197,14 @@ Arguments are:
 An example:
 ```shell
 cd SYSU-30k/GraphReID/
-python test_sysu_pretrained.py  --gpu_ids 0  --name work_dirs/ResNet50-sysu30k-2048-AsFeature  --test_dir  /data1/wangguangrun/sysu_test_set_all/    --which_epoch 6  --batchsize 100
-python evaluate_sysu_pretrained.py
+python test_sysu_.py  --gpu_ids 0  --name work_dirs/ResNet50-sysu30k-2048-AsFeature  --test_dir  /data1/wangguangrun/sysu_test_set_all/    --which_epoch 6  --batchsize 100
+python evaluate_sysu.py
 ```
 
 **Note**: Due the huge consumption of hard disks, sometimes, the above two steps can be combined into one step, e.g.:
 ```shell
 cd SYSU-30k/GraphReID/
-python test_sysu_pretrained_combine.py  --gpu_ids 0  --name work_dirs/ResNet50-sysu30k-2048-AsFeature  --test_dir  /data1/wangguangrun/sysu_test_set_all/    --which_epoch 6  --batchsize 100
+python test_sysu_combine.py  --gpu_ids 0  --name work_dirs/ResNet50-sysu30k-2048-AsFeature  --test_dir  /data1/wangguangrun/sysu_test_set_all/    --which_epoch 6  --batchsize 100
 ```
 
 
