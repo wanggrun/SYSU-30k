@@ -1,4 +1,0 @@
-We fix the train/test partitioning. In the test set, we choose 1,000 images belonging to 1,000 different person IDs to form the query set. As the scalability is important for the practicability of Re-ID systems, we propose to challenge the scalability of a Re-ID model by providing a gallery set containing a vast volume of distractors for validation. Specifically, for each probe, there is only one matching person image as the correct answer in the gallery, while there are 478,730 mismatching person images as the wrong answer in the gallery. Thus, the evaluation protocol is to search for a needle in the ocean, just like the police search a massive amount of videos for a criminal. We use the rank-1 accuracy as the evaluation metric.
-
-
-**For a fair evaluation, please refer to the evaluation code in ../GraphReID/train_sysu_pretrained_combine.py**

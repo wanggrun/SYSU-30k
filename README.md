@@ -197,7 +197,7 @@ Arguments are:
 An example:
 ```shell
 cd SYSU-30k/GraphReID/
-python test_sysu_.py  --gpu_ids 0  --name work_dirs/ResNet50-sysu30k-2048-AsFeature  --test_dir  /data1/wangguangrun/sysu_test_set_all/    --which_epoch 6  --batchsize 100
+python test_sysu.py  --gpu_ids 0  --name work_dirs/ResNet50-sysu30k-2048-AsFeature  --test_dir  /data1/wangguangrun/sysu_test_set_all/    --which_epoch 6  --batchsize 100
 python evaluate_sysu.py
 ```
 
