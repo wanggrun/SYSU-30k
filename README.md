@@ -3,7 +3,7 @@
 The Dataset, code, and pretrained model of "Weakly Supervised Person Re-ID: Differentiable Graphical Learning and A New Benchmark" https://arxiv.org/abs/1904.03845.
 
 
-**Note:** The source code of our weakly supervised re-ID is originally written by [**Guangcong Wang**](https://wanggcong.github.io) who has rich experiences in person re-ID, and is partially revised by [Guangrun Wang](https://wanggrun.github.io/).
+## The source code of our weakly supervised re-ID is originally written by [**Guangcong Wang**](https://wanggcong.github.io) who has rich experiences in person re-ID, and is partially revised by [Guangrun Wang](https://wanggrun.github.io/).
 
 
 
