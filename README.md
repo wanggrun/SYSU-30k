@@ -81,7 +81,7 @@ The test set is uncompressed due to the appropriate memory size.
 
  | Dataset      | Link to download       |  baidu pan code | 
 |:------------------:|:------------------:|:------------------:|
-|bag_level_label.txt |  [:arrow_down:](https://pan.baidu.com/s/1Y9phSZ5jy02szFZB_KqlyQ)    |   1qzv    | 
+|bag_level_label.json |  [:arrow_down:](https://pan.baidu.com/s/1Y9phSZ5jy02szFZB_KqlyQ)    |   1qzv    | 
 |train.txt |  [:arrow_down:](https://pan.baidu.com/s/1Y9phSZ5jy02szFZB_KqlyQ)    |   1qzv    | 
 |val.txt |  [:arrow_down:](https://pan.baidu.com/s/1Y9phSZ5jy02szFZB_KqlyQ)    |   1qzv    | 
 
@@ -99,7 +99,7 @@ At last, the folder looks like:
 
 ```
 SYSU-30k-released
-├── imagenet
+├── SYSU-30k-released
 │   ├── meta
 │   |   ├── train.txt (for weakly supervised training, "filename\n" in each line)
 │   |   ├── val.txt (for evaluation)
@@ -155,7 +155,9 @@ SYSU-30k-released
 We fix the train/test partitioning. In the test set, we choose 1,000 images belonging to 1,000 different person IDs to form the query set. As the scalability is vital for the practicability of Re-ID systems, we propose to challenge a Re-ID model's scalability by providing a gallery set containing a vast volume of distractors for validation. Specifically, for each probe, there is only one matching person image as the correct answer in the gallery. At the same time, there are 478,730 mismatching person images as the wrong answer in the gallery. Thus, the evaluation protocol is to search for a needle in the ocean, just like the police search a massive amount of videos for a criminal. We use the rank-1 accuracy as the evaluation metric.
 
 
-# For a fair evaluation, please refer to the evaluation code in Using_SYSU30k_Test_Set/test_sysu_combine.py
+# Due to the large number of mismatching person images, SYSU-30k test set is so challenge that existing methods may have poor performance on SYSU-30k test set. Therefore, no matter whether your method is trained on SYSU-30k training set, you are encouraged to evaluate your method in SYSU-30k test set. 
+
+# For a fair evaluation, please refer to the evaluation code in Using_SYSU30k_Test_Set/test_sysu_combine.py. 
 
 
 # Pretrained models
@@ -165,7 +167,7 @@ We fix the train/test partitioning. In the test set, we choose 1,000 images belo
 
  | Pretrained      | Link to download       |  baidu pan code | 
 |:------------------:|:------------------:|:------------------:|
-|  pretrained_model.pth      |  [:arrow_down:](https://pan.baidu.com/s/1Y9phSZ5jy02szFZB_KqlyQ)    |   1qzv    | 
+|  ResNet50-sysu30k-2048-AsFeature/net_6.pth    |  [:arrow_down:](https://pan.baidu.com/s/1Y9phSZ5jy02szFZB_KqlyQ)    |   1qzv    | 
 
 
 ### Requirements

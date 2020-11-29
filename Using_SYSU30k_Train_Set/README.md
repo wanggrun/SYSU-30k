@@ -37,7 +37,7 @@ At last, the folder looks like:
 
 ```
 SYSU-30k-released
-├── imagenet
+├── SYSU-30k-released
 │   ├── meta
 │   |   ├── train.txt (for weakly supervised training, "filename\n" in each line)
 │   |   ├── val.txt (for evaluation)
