@@ -27,7 +27,8 @@ The test set is uncompressed due to the appropriate memory size.
 |:------------------:|:------------------:|:------------------:|
 |bag_level_label.txt |  [:arrow_down:](https://pan.baidu.com/s/1Y9phSZ5jy02szFZB_KqlyQ)    |   1qzv    | 
 |train.txt |  [:arrow_down:](https://pan.baidu.com/s/1Y9phSZ5jy02szFZB_KqlyQ)    |   1qzv    | 
-|val.txt |  [:arrow_down:](https://pan.baidu.com/s/1Y9phSZ5jy02szFZB_KqlyQ)    |   1qzv    | 
+|query.txt |  [:arrow_down:](https://pan.baidu.com/s/1Y9phSZ5jy02szFZB_KqlyQ)    |   1qzv    | 
+|gallery.txt |  [:arrow_down:](https://pan.baidu.com/s/1Y9phSZ5jy02szFZB_KqlyQ)    |   1qzv    | 
 
 
 
@@ -40,7 +41,8 @@ SYSU-30k-released
 ├── SYSU-30k-released
 │   ├── meta
 │   |   ├── train.txt (for weakly supervised training, "filename\n" in each line)
-│   |   ├── val.txt (for evaluation)
+│   |   ├── query.txt (for evaluation)
+│   |   ├── gallery.txt (for evaluation)
 │   ├── sysu_train_set_all
 │   |   ├── 0000000001
 │   |   ├── 0000000002

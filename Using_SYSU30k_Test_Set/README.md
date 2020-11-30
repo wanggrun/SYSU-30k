@@ -14,6 +14,12 @@ At last, the folder looks like:
 The folder looks like:
 
 ```
+SYSU-30k-released
+├── SYSU-30k-released
+│   ├── meta
+│   |   ├── train.txt (for weakly supervised training, "filename\n" in each line)
+│   |   ├── query.txt (for evaluation)
+│   |   ├── gallery.txt (for evaluation)
 │   ├── sysu_test_set_all
 │   |   ├── gallery
 │   |   |   ├── 000028311
