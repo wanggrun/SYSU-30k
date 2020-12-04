@@ -258,7 +258,7 @@ python train_weak.py --gpu_ids 2 --name ResNet50 --color_jitter  --train_all --b
 
 # Citation
 
-If you use these models in your research, please cite:
+If you use these models in your research, please kindly cite:
 
 ```
 @inproceedings{Wang2020Weakly_tnnls,
