@@ -162,6 +162,21 @@ We fix the train/test partitioning. In the test set, we choose 1,000 images belo
 # For a fair evaluation, please refer to the evaluation code in Using_SYSU30k_Test_Set/test_sysu_combine.py. 
 
 
+***At present, the performance of existing methods on the SYSU-30k test set is poor. Therefore, to report new results on the SYSU-30k test set is advisable.***
+
+### Table 3: Results on SYSU-30k.
+  
+ | Supervision      | Method       |  Rank-1 | 
+|:------------------:|:------------------:|:------------------:|
+| Fully   | DARI        |        11.2  |
+| Fully   |  DF   |   10.3     | 
+| Fully   |  ResNet-50      |     20.1         |
+| Fully   | Local-CNN       |     23.0         |
+| Fully   | MGN             |     23.6         |
+| Weakly  | ResNet-50       |     26.9         |
+
+
+
 # Pretrained models
 
 
