@@ -162,7 +162,7 @@ We fix the train/test partitioning. In the test set, we choose 1,000 images belo
 # For a fair evaluation, please refer to the evaluation code in Using_SYSU30k_Test_Set/test_sysu_combine.py. 
 
 
-***At present, the performance of existing methods on the SYSU-30k test set is poor. Therefore, to report new results on the SYSU-30k test set is advisable.***
+# At present, the performance of existing methods on the SYSU-30k test set is poor. Therefore, to report new results on the SYSU-30k test set is encouraged.
 
 ### Table 3: Results on SYSU-30k.
   
