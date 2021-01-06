@@ -252,6 +252,12 @@ python train_weak.py --gpu_ids 2 --name ResNet50 --color_jitter  --train_all --b
 ```
 
 
+# Agreement
+* The SYSU-30k dataset is available for non-commercial research purposes only.
+* You agree not to reproduce, duplicate, copy, sell, trade, resell or exploit for any commercial purposes, any portion of the images and any portion of derived data.
+* You agree not to further copy, publish or distribute any portion of the SYSU-30k dataset. Except, for internal use at a single site within the same organization it is allowed to make copies of the dataset.
+* The SYSU reserves the right to terminate your access to the SYSU-30k dataset at any time.
+* The person identities are released upon request for research purposes only. Please contact us for details.
 
 
 
