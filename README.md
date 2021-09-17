@@ -7,19 +7,19 @@ The Dataset, code, and pretrained model of "Weakly Supervised Person Re-ID: Diff
 
 ## Leaderboard on SYSU-30k.
   
- | Supervision      | Method       |  Rank-1 | 
+| Supervision      | Method       |  Rank-1 | 
 |:------------------:|:------------------:|:------------------:|
-| Generalization Test   | DARI [1]        |        11.2  |
-| Generalization Test   |  DF [2]   |   10.3     | 
-| Generalization Test   |  ResNet-50 [3]      |     20.1         |
-| Generalization Test   | Local-CNN [4]       |     23.0         |
-| Generalization Test   | MGN [5]             |     23.6         |
-| Generalization Test   | IICS[6]         |     36.0         |
+| Generalization   | DARI [1]        |        11.2  |
+| Generalization   |  DF [2]   |   10.3     | 
+| Generalization   |  ResNet-50 [3]      |     20.1         |
+| Generalization   | Local-CNN [4]       |     23.0         |
+| Generalization   | MGN [5]             |     23.6         |
+| Generalization   | IICS[6]         |     36.0         |
 | Weakly Supervised  | Differentiable Graphical Learning [7]      |     26.9         |
-| Self Supervised   | SimCLR [7]          |     10.9         |
-| Self Supervised   | MoCo v2 [8]        |     11.6         |
-| Self Supervised   | BYOL [9]         |     12.7         |
-| Self Supervised   | Triplet [10]         |     14.8         |
+| Self Supervised   | SimCLR [8]          |     10.9         |
+| Self Supervised   | MoCo v2 [9]        |     11.6         |
+| Self Supervised   | BYOL [10]         |     12.7         |
+| Self Supervised   | Triplet [11]         |     14.8         |
 
 [1] Guangrun Wang, Liang Lin, Shengyong Ding, Ya Li, Qing Wang: DARI: Distance Metric and Representation Integration for Person Verification. AAAI 2016: 3611-3617
 
@@ -33,11 +33,15 @@ The Dataset, code, and pretrained model of "Weakly Supervised Person Re-ID: Diff
 
 [6] Shiyu Xuan, Shiliang Zhang: Intra-Inter Camera Similarity for Unsupervised Person Re-Identification. CVPR 2021: 11926-11935
 
-[7] Ting Chen, Simon Kornblith, Mohammad Norouzi, Geoffrey E. Hinton: A Simple Framework for Contrastive Learning of Visual Representations. ICML 2020: 1597-1607
+[7] Guangrun Wang, Guangcong Wang, Xujie Zhang, Jianhuang Lai, Zhengtao Yu, Liang Lin: Weakly Supervised Person Re-ID: Differentiable Graphical Learning and a New Benchmark. IEEE Trans. Neural Networks Learn. Syst. 32(5): 2142-2156 (2021)
 
-[8] Xinlei Chen, Haoqi Fan, Ross B. Girshick, Kaiming He: Improved Baselines with Momentum Contrastive Learning. CoRR abs/2003.04297 (2020)
+[8] Ting Chen, Simon Kornblith, Mohammad Norouzi, Geoffrey E. Hinton: A Simple Framework for Contrastive Learning of Visual Representations. ICML 2020: 1597-1607
 
-[9] Guangrun Wang, Keze Wang, Guangcong Wang, Philip H.S. Torr, and Liang Lin, "Solving Inefficiency of Self-supervised Representation Learning" [C]. in Proc. of IEEE International Conference on Computer Vision (ICCV), 2021.
+[9] Xinlei Chen, Haoqi Fan, Ross B. Girshick, Kaiming He: Improved Baselines with Momentum Contrastive Learning. CoRR abs/2003.04297 (2020)
+
+[10] Jean-Bastien Grill, Florian Strub, Florent Altché, Corentin Tallec, Pierre H. Richemond, Elena Buchatskaya, Carl Doersch, Bernardo Ávila Pires, Zhaohan Guo, Mohammad Gheshlaghi Azar, Bilal Piot, Koray Kavukcuoglu, Rémi Munos, Michal Valko: Bootstrap Your Own Latent - A New Approach to Self-Supervised Learning. NeurIPS 2020
+
+[11] Guangrun Wang, Keze Wang, Guangcong Wang, Philip H.S. Torr, and Liang Lin, "Solving Inefficiency of Self-supervised Representation Learning" [C]. in Proc. of IEEE International Conference on Computer Vision (ICCV), 2021.
 
 ## Statistic of the dataset
 
@@ -198,19 +202,19 @@ We fix the train/test partitioning. In the test set, we choose 1,000 images belo
 
 ### Table 3: Results on SYSU-30k.
   
- | Supervision      | Method       |  Rank-1 | 
+| Supervision      | Method       |  Rank-1 | 
 |:------------------:|:------------------:|:------------------:|
-| Generalization Test   | DARI [1]        |        11.2  |
-| Generalization Test   |  DF [2]   |   10.3     | 
-| Generalization Test   |  ResNet-50 [3]      |     20.1         |
-| Generalization Test   | Local-CNN [4]       |     23.0         |
-| Generalization Test   | MGN [5]             |     23.6         |
-| Generalization Test   | IICS[6]         |     36.0         |
+| Generalization   | DARI [1]        |        11.2  |
+| Generalization   |  DF [2]   |   10.3     | 
+| Generalization   |  ResNet-50 [3]      |     20.1         |
+| Generalization   | Local-CNN [4]       |     23.0         |
+| Generalization   | MGN [5]             |     23.6         |
+| Generalization   | IICS[6]         |     36.0         |
 | Weakly Supervised  | Differentiable Graphical Learning [7]      |     26.9         |
-| Self Supervised   | SimCLR [7]          |     10.9         |
-| Self Supervised   | MoCo v2 [8]        |     11.6         |
-| Self Supervised   | BYOL [9]         |     12.7         |
-| Self Supervised   | Triplet [10]         |     14.8         |
+| Self Supervised   | SimCLR [8]          |     10.9         |
+| Self Supervised   | MoCo v2 [9]        |     11.6         |
+| Self Supervised   | BYOL [10]         |     12.7         |
+| Self Supervised   | Triplet [11]         |     14.8         |
 
 [1] Guangrun Wang, Liang Lin, Shengyong Ding, Ya Li, Qing Wang: DARI: Distance Metric and Representation Integration for Person Verification. AAAI 2016: 3611-3617
 
@@ -224,11 +228,15 @@ We fix the train/test partitioning. In the test set, we choose 1,000 images belo
 
 [6] Shiyu Xuan, Shiliang Zhang: Intra-Inter Camera Similarity for Unsupervised Person Re-Identification. CVPR 2021: 11926-11935
 
-[7] Ting Chen, Simon Kornblith, Mohammad Norouzi, Geoffrey E. Hinton: A Simple Framework for Contrastive Learning of Visual Representations. ICML 2020: 1597-1607
+[7] Guangrun Wang, Guangcong Wang, Xujie Zhang, Jianhuang Lai, Zhengtao Yu, Liang Lin: Weakly Supervised Person Re-ID: Differentiable Graphical Learning and a New Benchmark. IEEE Trans. Neural Networks Learn. Syst. 32(5): 2142-2156 (2021)
 
-[8] Xinlei Chen, Haoqi Fan, Ross B. Girshick, Kaiming He: Improved Baselines with Momentum Contrastive Learning. CoRR abs/2003.04297 (2020)
+[8] Ting Chen, Simon Kornblith, Mohammad Norouzi, Geoffrey E. Hinton: A Simple Framework for Contrastive Learning of Visual Representations. ICML 2020: 1597-1607
 
-[9] Guangrun Wang, Keze Wang, Guangcong Wang, Philip H.S. Torr, and Liang Lin, "Solving Inefficiency of Self-supervised Representation Learning" [C]. in Proc. of IEEE International Conference on Computer Vision (ICCV), 2021.
+[9] Xinlei Chen, Haoqi Fan, Ross B. Girshick, Kaiming He: Improved Baselines with Momentum Contrastive Learning. CoRR abs/2003.04297 (2020)
+
+[10] Jean-Bastien Grill, Florian Strub, Florent Altché, Corentin Tallec, Pierre H. Richemond, Elena Buchatskaya, Carl Doersch, Bernardo Ávila Pires, Zhaohan Guo, Mohammad Gheshlaghi Azar, Bilal Piot, Koray Kavukcuoglu, Rémi Munos, Michal Valko: Bootstrap Your Own Latent - A New Approach to Self-Supervised Learning. NeurIPS 2020
+
+[11] Guangrun Wang, Keze Wang, Guangcong Wang, Philip H.S. Torr, and Liang Lin, "Solving Inefficiency of Self-supervised Representation Learning" [C]. in Proc. of IEEE International Conference on Computer Vision (ICCV), 2021.
 
 
 # Pretrained models
