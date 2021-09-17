@@ -5,7 +5,31 @@ The Dataset, code, and pretrained model of "Weakly Supervised Person Re-ID: Diff
 
 ## The source code of our weakly supervised re-ID is originally written by [**Guangcong Wang**](https://wanggcong.github.io) who has rich experiences in person re-ID ([follow his github](https://github.com/Wanggcong)), and is partially revised by [Guangrun Wang](https://wanggrun.github.io/).
 
+## Leaderboard on SYSU-30k.
+  
+ | Supervision      | Method       |  Rank-1 | 
+|:------------------:|:------------------:|:------------------:|
+| Generalization Test   | DARI [1]        |        11.2  |
+| Generalization Test   |  DF [2]   |   10.3     | 
+| Generalization Test   |  ResNet-50 [3]      |     20.1         |
+| Generalization Test   | Local-CNN [4]       |     23.0         |
+| Generalization Test   | MGN [5]             |     23.6         |
+| Generalization Test   | IICS[6]         |     36.0         |
+| Weakly Supervised  | Differentiable Graphical Learning [7]      |     26.9         |
+| Self Supervised   | SimCLR [7]          |     10.9         |
+| Self Supervised   | MoCo v2 [8]        |     11.6         |
+| Self Supervised   | BYOL [9]         |     12.7         |
+| Self Supervised   | Triplet [10]         |     14.8         |
 
+[1] Guangrun Wang, Liang Lin, Shengyong Ding, Ya Li, Qing Wang: DARI: Distance Metric and Representation Integration for Person Verification. AAAI 2016: 3611-3617
+[2] Shengyong Ding, Liang Lin, Guangrun Wang, Hongyang Chao: Deep feature learning with relative distance comparison for person re-identification. Pattern Recognit. 48(10): 2993-3003 (2015)
+[3] Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun: Deep Residual Learning for Image Recognition. CVPR 2016: 770-778
+[4] Jiwei Yang, Xu Shen, Xinmei Tian, Houqiang Li, Jianqiang Huang, Xian-Sheng Hua: Local Convolutional Neural Networks for Person Re-Identification. ACM Multimedia 2018: 1074-1082
+[5] Guanshuo Wang, Yufeng Yuan, Xiong Chen, Jiwei Li, Xi Zhou: Learning Discriminative Features with Multiple Granularities for Person Re-Identification. ACM Multimedia 2018: 274-282
+[6] Shiyu Xuan, Shiliang Zhang: Intra-Inter Camera Similarity for Unsupervised Person Re-Identification. CVPR 2021: 11926-11935
+[7] Ting Chen, Simon Kornblith, Mohammad Norouzi, Geoffrey E. Hinton: A Simple Framework for Contrastive Learning of Visual Representations. ICML 2020: 1597-1607
+[8] Xinlei Chen, Haoqi Fan, Ross B. Girshick, Kaiming He: Improved Baselines with Momentum Contrastive Learning. CoRR abs/2003.04297 (2020)
+[9] Guangrun Wang, Keze Wang, Guangcong Wang, Philip H.S. Torr, and Liang Lin, "Solving Inefficiency of Self-supervised Representation Learning" [C]. in Proc. of IEEE International Conference on Computer Vision (ICCV), 2021.
 
 ## Statistic of the dataset
 
@@ -168,13 +192,27 @@ We fix the train/test partitioning. In the test set, we choose 1,000 images belo
   
  | Supervision      | Method       |  Rank-1 | 
 |:------------------:|:------------------:|:------------------:|
-| Fully   | DARI        |        11.2  |
-| Fully   |  DF   |   10.3     | 
-| Fully   |  ResNet-50      |     20.1         |
-| Fully   | Local-CNN       |     23.0         |
-| Fully   | MGN             |     23.6         |
-| Weakly  | ResNet-50       |     26.9         |
+| Generalization Test   | DARI [1]        |        11.2  |
+| Generalization Test   |  DF [2]   |   10.3     | 
+| Generalization Test   |  ResNet-50 [3]      |     20.1         |
+| Generalization Test   | Local-CNN [4]       |     23.0         |
+| Generalization Test   | MGN [5]             |     23.6         |
+| Generalization Test   | IICS[6]         |     36.0         |
+| Weakly Supervised  | Differentiable Graphical Learning [7]      |     26.9         |
+| Self Supervised   | SimCLR [7]          |     10.9         |
+| Self Supervised   | MoCo v2 [8]        |     11.6         |
+| Self Supervised   | BYOL [9]         |     12.7         |
+| Self Supervised   | Triplet [10]         |     14.8         |
 
+[1] Guangrun Wang, Liang Lin, Shengyong Ding, Ya Li, Qing Wang: DARI: Distance Metric and Representation Integration for Person Verification. AAAI 2016: 3611-3617
+[2] Shengyong Ding, Liang Lin, Guangrun Wang, Hongyang Chao: Deep feature learning with relative distance comparison for person re-identification. Pattern Recognit. 48(10): 2993-3003 (2015)
+[3] Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun: Deep Residual Learning for Image Recognition. CVPR 2016: 770-778
+[4] Jiwei Yang, Xu Shen, Xinmei Tian, Houqiang Li, Jianqiang Huang, Xian-Sheng Hua: Local Convolutional Neural Networks for Person Re-Identification. ACM Multimedia 2018: 1074-1082
+[5] Guanshuo Wang, Yufeng Yuan, Xiong Chen, Jiwei Li, Xi Zhou: Learning Discriminative Features with Multiple Granularities for Person Re-Identification. ACM Multimedia 2018: 274-282
+[6] Shiyu Xuan, Shiliang Zhang: Intra-Inter Camera Similarity for Unsupervised Person Re-Identification. CVPR 2021: 11926-11935
+[7] Ting Chen, Simon Kornblith, Mohammad Norouzi, Geoffrey E. Hinton: A Simple Framework for Contrastive Learning of Visual Representations. ICML 2020: 1597-1607
+[8] Xinlei Chen, Haoqi Fan, Ross B. Girshick, Kaiming He: Improved Baselines with Momentum Contrastive Learning. CoRR abs/2003.04297 (2020)
+[9] Guangrun Wang, Keze Wang, Guangcong Wang, Philip H.S. Torr, and Liang Lin, "Solving Inefficiency of Self-supervised Representation Learning" [C]. in Proc. of IEEE International Conference on Computer Vision (ICCV), 2021.
 
 
 # Pretrained models
