@@ -10,16 +10,16 @@ The Dataset, code, and pretrained model of "Weakly Supervised Person Re-ID: Diff
 | Supervision      | Method       |  Rank-1 | 
 |:------------------:|:------------------:|:------------------:|
 | Generalization   | [DARI [1]](https://arxiv.org/abs/1604.04377)        |        11.2  |
-| Generalization   |  DF [2]   |   10.3     | 
-| Generalization   |  ResNet-50 [3]      |     20.1         |
-| Generalization   | Local-CNN [4]       |     23.0         |
-| Generalization   | MGN [5]             |     23.6         |
-| Generalization   | IICS[6]         |     36.0         |
-| Weakly Supervised  | Differentiable Graphical Learning [7]      |     26.9         |
-| Self Supervised   | SimCLR [8]          |     10.9         |
-| Self Supervised   | MoCo v2 [9]        |     11.6         |
-| Self Supervised   | BYOL [10]         |     12.7         |
-| Self Supervised   | Triplet [11]         |     14.8         |
+| Generalization   |  [DF [2]](https://arxiv.org/abs/1512.03622)   |   10.3     | 
+| Generalization   |  [ResNet-50 [3]](https://arxiv.org/abs/1512.03385)      |     20.1         |
+| Generalization   | [Local-CNN [4]](https://dl.acm.org/doi/10.1145/3240508.3240645)       |     23.0         |
+| Generalization   | [MGN [5]](https://arxiv.org/abs/1804.01438)             |     23.6         |
+| Generalization   | [IICS [6]](https://arxiv.org/abs/2103.11658)         |     36.0         |
+| Weakly Supervised  | [DGL [7]](https://arxiv.org/abs/1904.03845)      |     26.9         |
+| Self Supervised   | [SimCLR [8]](https://arxiv.org/abs/2002.05709)          |     10.9         |
+| Self Supervised   | [MoCo v2 [9]](https://arxiv.org/abs/2003.04297)        |     11.6         |
+| Self Supervised   | [BYOL [10]](https://arxiv.org/abs/2006.07733)         |     12.7         |
+| Self Supervised   | [Triplet [11]](https://arxiv.org/abs/2104.08760)         |     14.8         |
 
 [1] Guangrun Wang, Liang Lin, Shengyong Ding, Ya Li, Qing Wang: DARI: Distance Metric and Representation Integration for Person Verification. AAAI 2016: 3611-3617
 
@@ -204,17 +204,17 @@ We fix the train/test partitioning. In the test set, we choose 1,000 images belo
   
 | Supervision      | Method       |  Rank-1 | 
 |:------------------:|:------------------:|:------------------:|
-| Generalization   | DARI [1]        |        11.2  |
-| Generalization   |  DF [2]   |   10.3     | 
-| Generalization   |  ResNet-50 [3]      |     20.1         |
-| Generalization   | Local-CNN [4]       |     23.0         |
-| Generalization   | MGN [5]             |     23.6         |
-| Generalization   | IICS[6]         |     36.0         |
-| Weakly Supervised  | Differentiable Graphical Learning [7]      |     26.9         |
-| Self Supervised   | SimCLR [8]          |     10.9         |
-| Self Supervised   | MoCo v2 [9]        |     11.6         |
-| Self Supervised   | BYOL [10]         |     12.7         |
-| Self Supervised   | Triplet [11]         |     14.8         |
+| Generalization   | [DARI [1]](https://arxiv.org/abs/1604.04377)        |        11.2  |
+| Generalization   |  [DF [2]](https://arxiv.org/abs/1512.03622)   |   10.3     | 
+| Generalization   |  [ResNet-50 [3]](https://arxiv.org/abs/1512.03385)      |     20.1         |
+| Generalization   | [Local-CNN [4]](https://dl.acm.org/doi/10.1145/3240508.3240645)       |     23.0         |
+| Generalization   | [MGN [5]](https://arxiv.org/abs/1804.01438)             |     23.6         |
+| Generalization   | [IICS [6]](https://arxiv.org/abs/2103.11658)         |     36.0         |
+| Weakly Supervised  | [DGL [7]](https://arxiv.org/abs/1904.03845)      |     26.9         |
+| Self Supervised   | [SimCLR [8]](https://arxiv.org/abs/2002.05709)          |     10.9         |
+| Self Supervised   | [MoCo v2 [9]](https://arxiv.org/abs/2003.04297)        |     11.6         |
+| Self Supervised   | [BYOL [10]](https://arxiv.org/abs/2006.07733)         |     12.7         |
+| Self Supervised   | [Triplet [11]](https://arxiv.org/abs/2104.08760)         |     14.8         |
 
 [1] Guangrun Wang, Liang Lin, Shengyong Ding, Ya Li, Qing Wang: DARI: Distance Metric and Representation Integration for Person Verification. AAAI 2016: 3611-3617
 
