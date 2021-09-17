@@ -5,7 +5,9 @@ The Dataset, code, and pretrained model of "Weakly Supervised Person Re-ID: Diff
 
 ## The source code of our weakly supervised re-ID is originally written by [**Guangcong Wang**](https://wanggcong.github.io) who has rich experiences in person re-ID ([follow his github](https://github.com/Wanggcong)), and is partially revised by [Guangrun Wang](https://wanggrun.github.io/).
 
-## Leaderboard on SYSU-30k.
+## Leaderboard on SYSU-30k. 
+
+The leaderboard is also at ["paperswithcode.com"](https://paperswithcode.com/sota/person-re-identification-on-sysu-30k)
   
 | Supervision      | Method       |  Rank-1 | 
 |:------------------:|:------------------:|:------------------:|
