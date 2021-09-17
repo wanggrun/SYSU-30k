@@ -9,7 +9,7 @@ The Dataset, code, and pretrained model of "Weakly Supervised Person Re-ID: Diff
   
 | Supervision      | Method       |  Rank-1 | 
 |:------------------:|:------------------:|:------------------:|
-| Generalization   | DARI [1]        |        11.2  |
+| Generalization   | [DARI [1]](https://arxiv.org/abs/1604.04377)        |        11.2  |
 | Generalization   |  DF [2]   |   10.3     | 
 | Generalization   |  ResNet-50 [3]      |     20.1         |
 | Generalization   | Local-CNN [4]       |     23.0         |
