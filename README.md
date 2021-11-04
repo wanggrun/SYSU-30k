@@ -2,6 +2,9 @@
 
 The Dataset, code, and pretrained model of "Weakly Supervised Person Re-ID: Differentiable Graphical Learning and A New Benchmark" https://arxiv.org/abs/1904.03845.
 
+## News
+[2021-11-04] Datasets are available on Google driver.
+
 
 ## The source code of our weakly supervised re-ID is originally written by [**Guangcong Wang**](https://wanggcong.github.io) who has rich experiences in person re-ID ([follow his github](https://github.com/Wanggcong)), and is partially revised by [Guangrun Wang](https://wanggrun.github.io/).
 
@@ -99,7 +102,13 @@ The leaderboard is also at ["paperswithcode.com"](https://paperswithcode.com/sot
 
 The test set is uncompressed due to the appropriate memory size.
 
-### Download the training set
+### (1) Download the dataset on Google driver
+[:arrow_down:](https://drive.google.com/drive/folders/1MTxZ4UN_mbxjByZgcAki-H10zDzzeyuJ?usp=sharing)
+
+
+### (2) Download the dataset on Google driver
+
+#### Download the training set
 
  | Dataset      | Link to download       |  baidu pan code | 
 |:------------------:|:------------------:|:------------------:|
@@ -115,7 +124,7 @@ The test set is uncompressed due to the appropriate memory size.
 |  sysu_train_set_all_part10.tar      |  [:arrow_down:](https://pan.baidu.com/s/1Y9phSZ5jy02szFZB_KqlyQ)   |   1qzv    | 
 
 
-### Download the bag-level label for training set, the training list, and the validation list.
+#### Download the bag-level label for training set, the training list, and the validation list.
 
  | Dataset      | Link to download       |  baidu pan code | 
 |:------------------:|:------------------:|:------------------:|
@@ -157,7 +166,7 @@ SYSU-30k-released
 │   |   |   |   ├── 000028311_c1_1.jpg
 │   |   |   ├── 000028312
 │   |   |   |   ├── 000028312_c1_1.jpg
-│   |   |   ├── 000028313
+│   |   |   ├── 000028313Leaderboard on SYSU-30k.
 │   |   |   |   ├── 000028313_c1_1.jpg
 │   |   |   ├── 000028314
 │   |   |   |   ├── 000028314_c1_1.jpg
