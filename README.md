@@ -103,7 +103,7 @@ The leaderboard is also at ["paperswithcode.com"](https://paperswithcode.com/sot
 The test set is uncompressed due to the appropriate memory size. We provide two ways to download the SYSU-30k dataset.  
 
 ### (1) Download the dataset on Google driver
-[:arrow_down:](https://drive.google.com/drive/folders/1MTxZ4UN_mbxjByZgcAki-H10zDzzeyuJ?usp=sharing)
+Click [:arrow_down:](https://drive.google.com/drive/folders/1MTxZ4UN_mbxjByZgcAki-H10zDzzeyuJ?usp=sharing) for downloading.
 The folder looks like:
 
 ```
