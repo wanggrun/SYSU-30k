@@ -3,7 +3,7 @@
 The Dataset, code, and pretrained model of "Weakly Supervised Person Re-ID: Differentiable Graphical Learning and A New Benchmark" https://arxiv.org/abs/1904.03845.
 
 ## Updated News
-[2021-11-04] The SYSU-30k dataset is also uploaded to Google driver. Both Google driver and Baidu pan are avaible now.
+[2021-11-04] The SYSU-30k dataset is also uploaded to Google driver. Both Google driver and Baidu pan are availble now.
 
 
 ## The source code of our weakly supervised re-ID is originally written by [**Guangcong Wang**](https://wanggcong.github.io) who has rich experiences in person re-ID ([follow his github](https://github.com/Wanggcong)), and is partially revised by [Guangrun Wang](https://wanggrun.github.io/).
