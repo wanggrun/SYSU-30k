@@ -100,13 +100,36 @@ The leaderboard is also at ["paperswithcode.com"](https://paperswithcode.com/sot
 
 **Note** that our original training set occupies 462G's memory. We are not able to upload the original data taking up such a large memory. As a result, we downsample the train images from 288 * x resolution to 144 * x resolution with x representing the shortest edge. The compressed data sum up to 82.2G.
 
-The test set is uncompressed due to the appropriate memory size.
+The test set is uncompressed due to the appropriate memory size. We provide two ways to download the SYSU-30k dataset.  
 
 ### (1) Download the dataset on Google driver
 [:arrow_down:](https://drive.google.com/drive/folders/1MTxZ4UN_mbxjByZgcAki-H10zDzzeyuJ?usp=sharing)
+The folder looks like:
+
+```
+sysu-30k-released
+├── train
+|   ├── sysu_train_set_all_part1.tar
+|   ├── sysu_train_set_all_part2.tar
+|   ├── sysu_train_set_all_part3.tar
+|   ├── sysu_train_set_all_part4.tar
+|   ├── sysu_train_set_all_part5.tar
+|   ├── sysu_train_set_all_part6.tar
+|   ├── sysu_train_set_all_part7.tar
+|   ├── sysu_train_set_all_part8.tar
+|   ├── sysu_train_set_all_part9.tar
+|   ├── sysu_train_set_all_part10.tar
+
+├── test
+|   ├── sysu_test_set_all.tar
+├── train.txt (for weakly supervised training, "filename\n" in each line)
+├── query.txt (for evaluation)
+├── gallery.txt (for evaluation)
+├── net_6.pth (pretrained model)
+```
 
 
-### (2) Download the dataset on Google driver
+### (2) Or download the dataset on Baidu driver
 
 #### Download the training set
 
