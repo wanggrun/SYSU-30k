@@ -4,15 +4,15 @@ The Dataset, code, and pretrained model of "Weakly Supervised Person Re-ID: Diff
 
 ## Updated News
 
-#### Self-Supervised Person Re-ID (2022-05-22)
+### Self-Supervised Person Re-ID (2022-05-22)
 
 Code for self-supervised person re-ID has been released.
 
-#### Self-Supervised Person Re-ID (2022-05-14)
+### Self-Supervised Person Re-ID (2022-05-14)
 
 According to our experiments in self-supervised representation learning, we found that SYSU-30k can examine the quality of SSL algorithms. The code for training SSL can be found at [here](https://github.com/wanggrun/triplet). The code to test SSL is close to the test code in this project. Currently, an SSL method has achieved a 27.5% rank-1 accuracy on the SYSU-30k benchmark!
 
-#### Dataset in Google Drive (2021-11-04)
+### Dataset in Google Drive (2021-11-04)
 
 The SYSU-30k dataset is also uploaded to Google driver. Both Google driver and Baidu pan are availble now.
 
