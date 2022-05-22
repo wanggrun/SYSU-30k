@@ -2,6 +2,10 @@
 
 The code for training SSL can be found at [Solving Inefficiency of Self-supervised Representation Learning](https://github.com/wanggrun/triplet).
 
+```shell
+CUDA_VISIBLE_DEVICES=3,5,6,7   bash tools/dist_train.sh configs/selfsup/triplet/r50_bs4096_accumulate4_ep1000_fp16_triplet_gpu3090.py   4  --pretrained   /scratch/local/ssd/guangrun/tmp/release_ep940.pth
+```
+
 # Testing:
 
 ```shell
